@@ -1,0 +1,28 @@
+/* Your board style here */
+.racer_table td {
+  height: 160px;
+  width: 160px;
+}
+.racer_table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#player1_race td.active {
+  background-image: url("images/player_1.png");
+}
+#player2_race td.active {
+  background-image: url("images/player_2.png");
+}
+
+.finishline {
+    background-image:
+    linear-gradient(90deg, #333 30px, white 30px),
+    linear-gradient(90deg, white 30px, #333 30px),
+    linear-gradient(90deg, #333 30px, white 30px);
+  background-position: 0 0, 0 30px, 0 60px;
+  background-repeat: repeat-x;
+  background-size: 60px 30px, 60px 30px, 60px 30px;
+  height: 90px;
+  margin: 15px auto;
+  width: 750px;
+}
